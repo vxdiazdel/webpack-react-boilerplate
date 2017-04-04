@@ -9,8 +9,15 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  devtool: 'cheap-module-source-map',
   module: {
     rules: [
+      {
+        enforce: "pre",
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: "eslint-loader",
+      },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
