@@ -7,7 +7,7 @@ React Boilerplate using Webpack, Sass, and Babel
 Runs webpack-dev-server
 
 ### `npm run watch`
-Runs webpack watch (useful when building express apps)
+Runs webpack -w (useful when running an express server)
 
 ### `npm run prod`
 Cleans /dist folder and minfies code for production
