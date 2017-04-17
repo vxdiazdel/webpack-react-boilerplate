@@ -9,5 +9,5 @@ Runs webpack-dev-server
 ### `npm run watch`
 Runs webpack -w (useful when running an express server)
 
-### `npm run prod`
-Cleans /dist folder and minfies code for production
+### `npm run build`
+Cleans /build folder and minifies code for production
